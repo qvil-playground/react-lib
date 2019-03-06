@@ -4,8 +4,8 @@ interface IButtonProps {
   children?: any;
 }
 
-const Button: React.FunctionComponent<IButtonProps> = ({ children }) => {
+export const Button: React.FunctionComponent<IButtonProps> = ({ children }) => {
   return <button>{children}</button>;
 };
 
-export default Button;
+// export default Button;
